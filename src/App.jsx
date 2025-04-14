@@ -30,7 +30,7 @@ function App() {
     <Router>
       <div className="flex items-center justify-between px-4 py-2 bg-gray-100 shadow">
         <div>
-          <p className="text-2xl font-bold text-green-600">MySite</p>
+          <p className="text-2xl font-bold text-green-700">MySite</p>
         </div>
         <div className="p-4 flex items-center gap-x-4">
           {isAuthenticated && (
@@ -43,7 +43,7 @@ function App() {
           )}
         </div>
       </div>
-
+      {/* routeslar */}
       <Routes>
         <Route path="/" element={<LoginForm />} />
         <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
