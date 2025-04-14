@@ -44,7 +44,6 @@ function App() {
         </div>
       </div>
 
-      {/* Routes */}
       <Routes>
         <Route path="/" element={<LoginForm />} />
         <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
