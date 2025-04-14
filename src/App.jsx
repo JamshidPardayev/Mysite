@@ -43,7 +43,7 @@ function App() {
           )}
         </div>
       </div>
-
+      {/* Routeslar */}
       <Routes>
         <Route path="/" element={<LoginForm />} />
         <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
